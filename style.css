@@ -19,6 +19,14 @@ a {
     
 }
 
+.navbar:hover{
+    box-shadow: 0 4px 15px rgba(255, 217, 0, 0.989);
+}
+
+.navbar a:hover{
+    text-decoration: underline gold;
+}
+
 main h2{
     background-color: #0F172A;
     color: white;
@@ -29,6 +37,27 @@ main h2{
     padding: 15px 0px 0px 15px;
 }
 
+main h2:hover{
+    box-shadow: 0 4px 15px rgba(255, 217, 0, 0.989);
+
+}
+.about-me{
+    border-radius: 15px;
+}
+
+.about-me p{
+    height: 100px;
+    padding: 10px 0 0 10px;
+    transition: 0.3s;
+}
+
+.about-me:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+
+
 .footer {
     background-color: #0F172A;
     border: 2px solid black;
@@ -37,8 +66,16 @@ main h2{
     text-align: center;
     display: flex;
     justify-content: center;
+
+}
+.footer:hover{
+    box-shadow: 0 4px 15px rgba(255, 217, 0, 0.989);
 }
 
-.footer p{
+.footer a{
     color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline gold;
 }
