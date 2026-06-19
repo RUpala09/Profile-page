@@ -19,7 +19,15 @@ a {
     
 }
 
-
+main h2{
+    background-color: #0F172A;
+    color: white;
+    border-radius: 15px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    padding: 15px 0px 0px 15px;
+}
 
 .footer {
     background-color: #0F172A;
